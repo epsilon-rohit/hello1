@@ -1,0 +1,125 @@
+<style>
+
+.containerrr-1{
+      display:flex;
+
+        }
+.content__header {
+    text-align: center;
+    margin-bottom: 2.5em;
+    text-transform: uppercase;
+
+
+}
+.content__title {
+    color: #9d833e;
+    margin: 0 0 .3em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .875em;
+    letter-spacing: 2px;
+
+
+}
+
+.circles-list {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+ text-transform: uppercase;
+}
+.circle-item {
+    display: block;
+    vertical-align: top;
+    margin-bottom: 3em;
+ text-transform: uppercase;
+    position: relative;
+}
+.circle-container {
+    display: table;
+    position: relative;
+    margin: auto;
+    width: 220px;
+    height: 200px;
+    max-width: 90%;
+    border-radius: 50%;
+    border: 2px solid #9d833e;
+     text-transform: uppercase;
+
+}
+.circle-infos {
+    font-weight: 400;
+    margin: 2.5em auto 0;
+    max-width: 150px;
+    display: block;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 1px;
+     text-transform: uppercase;
+
+}
+.circle__data {
+    display: table-cell;
+    vertical-align: middle;
+line-height: 1;
+ text-transform: uppercase;
+
+    font-size: 2.0625em;
+    color: #9d833e;
+    margin: auto;
+    font-weight: lighter;
+    text-align: center;
+}
+ .boxes-1{
+flex:1;
+padding-left:12%
+  }
+
+  .boxes-2{
+flex:1;
+padding-left:12%
+  }
+   .boxes-3{
+flex:1;
+padding-left:12%
+  }
+</style>
+
+
+
+
+
+
+ <div class="content__header">
+<h2 class="content__title">${properties.text}</h2>
+        </div>
+
+
+<div class="containerrr-1">
+	<div class="boxes-1">
+<div class="circle-container">
+             <p class="circle__data"><span>${properties.text2}</span>%</p>
+    </div>
+
+
+       <p class="circle-infos">${properties.text3}</p>
+
+</div>
+<div class="boxes-2">
+<div class="circle-container">
+             <p class="circle__data">${properties.text4}</p>
+    </div>        
+       <p class="circle-infos">${properties.text5}</p>
+</div>
+<div class="boxes-3">
+ <div class="circle-container">
+             <p class="circle__data">${properties.text6}</p>
+    </div>        
+       <p class="circle-infos">Programmes</p>
+
+</div>
+</div>

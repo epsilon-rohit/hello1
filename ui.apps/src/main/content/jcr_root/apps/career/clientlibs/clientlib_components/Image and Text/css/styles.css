@@ -1,0 +1,48 @@
+
+
+.container-1{
+      display:flex;
+
+        }
+
+
+
+    .ImageandText1{
+    font-size: 1.5em;
+    padding-left:23%;
+    font-family: ITC New Baskerville W01;
+    font-weight: 400;
+    font-size: 1.5625em;
+
+    }
+
+
+
+.ImageandTextparagraphe__subtitle{
+    padding-left:24%;
+            text-transform:uppercase;
+
+        }
+
+.ImageandText2{
+
+
+     color: #9d833e;
+     font-style: italic;
+ line-height: 2.2;
+font-size: 1em;
+    display: inline-block;
+    text-align: left;
+            display: inline-block;
+
+    }
+  
+  .box-1{
+flex:1;
+    padding-top:8%;
+  }
+  
+  .box-2{
+flex:2;
+  }
+

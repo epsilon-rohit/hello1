@@ -1,0 +1,12 @@
+
+
+.paragraphe__content {
+    color: #979797;
+    font-size: 1em;
+    line-height: 1.6;
+    letter-spacing: .5px;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+}
+

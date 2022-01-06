@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar {
+overflow: hidden;
+background-color: white;
+}
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+}
+.subnav {
+float: left;
+overflow: hidden;
+}
+
+.subnavbtn1{
+font-size: 16px;
+border: none;
+outline: none;
+color: #9D833E;
+padding:10px 20px;
+text-align: center;
+margin-left:15px;
+background-color: inherit;
+font-family: inherit;
+
+text-transform: uppercase;
+    font-size: 1em;
+     font-weight: bold;
+}
+.subnavbtn2{
+font-size: 16px;
+border: none;
+outline: none;
+color: black;
+padding:10px 20px;
+text-align: center;
+margin-left:320px;
+background-color: inherit;
+font-family: inherit;
+text-transform: uppercase;
+    font-size: 1em;
+     font-weight: bold;
+}
+.subnavbtn3{
+font-size: 16px;
+border: none;
+outline: none;
+color: black;
+padding:10px 20px;
+text-align: center;
+margin-left:15px;
+background-color: inherit;
+font-family: inherit;
+
+text-transform: uppercase;
+    font-size: 1em;
+     font-weight: bold;
+}
+.subnavbtn4{
+font-size: 16px;
+border: none;
+outline: none;
+color: black;
+padding:10px 20px;
+text-align: center;
+margin-left:15px;
+background-color: inherit;
+font-family: inherit;
+
+text-transform: uppercase;
+    font-size: 1em;
+     font-weight: bold;
+}
+.subnavbtn5{
+font-size: 16px;
+border: none;
+outline: none;
+color: black;
+padding:10px 20px;
+text-align: center;
+margin-left:15px;
+background-color: inherit;
+font-family: inherit;
+
+text-transform: uppercase;
+    font-size: 1em;
+     font-weight: bold;
+}
+.subnavbtn6{
+font-size: 16px;
+border: none;
+outline: none;
+color: black;
+padding:10px 30px;
+text-align: center;
+margin-left:35px;
+
+
+text-transform: uppercase;
+    font-size: 1em;
+     font-weight: bold;
+}
+.subnav .subnavbtn {
+
+font-size: 16px;
+border: none;
+outline: none;
+color: black;
+padding:10px 20px;
+text-align: center;
+background-color: inherit;
+font-family: inherit;
+margin-left:15px;
+text-transform: uppercase;
+    font-size: 1em;
+     font-weight: bold;
+
+
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+background-color: #f0f8ff;
+}
+.subnav-content {
+display: none;
+position: absolute;
+left: 0;
+background-color: black;
+width: 100%;
+text-align:center;
+z-index: 1;
+}
+.subnav-content a {
+float: left;
+color: white;
+text-align:center;
+text-decoration: none;
+}
+.subnav-content a:hover {
+background-color: #eee;
+text-align:center;
+color: #6bcef1;
+}.subnav:hover .subnav-content {
+display: block;
+padding-left:17%;
+}</style>
+</head>
+<body><div class="navbar">
+<div class="subnav">
+<button class="subnavbtn2">${properties.text}</button>
+<div class="subnav-content">
+<a href="#company">Communiqués de presse</a>
+<a href="#team">Fil d'actualités</a>
+<a href="#careers">Les créations</a>
+</div>
+</div>
+<div class="subnav">
+<button class="subnavbtn1">${properties.text2}</button>
+<div class="subnav-content">
+<a href="#bring">A propos de Publicis Groupe</a>
+<a href="#deliver">Gouvernance</a>
+<a href="#package">RSE</a>
+<a href="#express">Histoire</a>
+<a href="#express">Viva Technology</a>
+<a href="#express">Carrières</a>
+</div>
+</div> 
+<div class="subnav">
+<button class="subnavbtn3">  <img src="${properties.fileReference}" style="width:100px; 
+        height:65px;"></button>
+</div>
+
+<div class="subnav">
+<button class="subnavbtn4">${properties.text3}</button>
+</div>
+<div class="subnav">
+<button class="subnavbtn5">${properties.text4}</button>
+<div class="subnav-content">
+<a href="#link1">Investisseurs & analystes</a>
+<a href="#link2">Nos chiffres-clés</a>
+<a href="#link3">Actionnaires</a>
+<a href="#link4">Données boursières</a>
+</div>
+</div>
+
+<div class="subnav">
+<button class="subnavbtn6">${properties.text5}</button>
+<div class="subnav-content">
+<a href="http://localhost:4502/content/career/us/en/final-career-page.html?wcmmode=disabled" target="_blank">${properties.text5}</a>
+</div>
+</div>
+</div>
+</body>
+</html>
+
