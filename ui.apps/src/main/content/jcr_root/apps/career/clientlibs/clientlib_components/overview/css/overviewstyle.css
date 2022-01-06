@@ -1,0 +1,24 @@
+
+#overview1 {
+    text-align: center;
+    color: #9d833e;
+    padding: 0;
+    margin: 0 0 .5em;
+    font-family: ITC New Baskerville W01;
+    font-weight: 400;
+    font-size: 3em;
+}
+p.overview2{
+    padding: 0;
+    margin: 0;
+    color: #212129;
+    font-size: .85em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+

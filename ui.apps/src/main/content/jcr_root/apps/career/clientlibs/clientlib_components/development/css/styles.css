@@ -1,0 +1,28 @@
+.development{
+    text-align: center;
+    color: #9d833e;
+        padding: 0;
+    margin: 0 0 .5em;
+    font-family: ITC New Baskerville W01;
+    font-weight: 400;
+    font-size: 2.1875em;
+}
+
+.development1{
+    color: #9d833e;
+        padding-left: 24%;
+    margin: 0 0 .5em;
+    font-family: ITC New Baskerville W01;
+    font-weight: 400;
+    font-size: 1.5625em;
+}
+.paragraphe__content {
+    color: #979797;
+    padding-left: 24%;
+    font-size: 1em;
+    line-height: 1.6;
+    letter-spacing: .5px;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+}

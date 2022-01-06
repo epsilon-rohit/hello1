@@ -1,0 +1,16 @@
+p.talentone{
+    
+     color: #979797;
+    font-size: .75em;
+    line-height: 1.6;
+    letter-spacing: .5px;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+        display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+

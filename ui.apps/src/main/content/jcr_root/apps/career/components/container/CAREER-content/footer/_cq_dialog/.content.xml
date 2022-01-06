@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="job-opportunities-body"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}false">
+                <items jcr:primaryType="nt:unstructured">
+                    <metadata
+                        jcr:primaryType="nt:unstructured"
+                        sling:hideResource="{Boolean}true"/>
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Properties"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <text
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text"
+                                                name="./text"
+                                                required="{Boolean}true"/>
+                                            <text3
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text3"
+                                                name="./text3"
+                                                required="{Boolean}true"/>
+                                            <text4
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text4"
+                                                name="./text4"
+                                                required="{Boolean}true"/>
+                                            <text5
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text5"
+                                                name="./text5"
+                                                required="{Boolean}true"/>
+                                            <text6
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text6"
+                                                name="./text6"
+                                                required="{Boolean}true"/>
+                                            <text7
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text7"
+                                                name="./text7"
+                                                required="{Boolean}true"/>
+                                            <text8
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text8"
+                                                name="./text8"
+                                                required="{Boolean}true"/>
+                                            <text9
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text9"
+                                                name="./text9"
+                                                required="{Boolean}true"/>
+                                            <text10
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text10"
+                                                name="./text10"
+                                                required="{Boolean}true"/>
+                                            <text11
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text11"
+                                                name="./text11"
+                                                required="{Boolean}true"/>
+                                            <text12
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text12"
+                                                name="./text12"
+                                                required="{Boolean}true"/>
+                                            <text13
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text13"
+                                                name="./text13"
+                                                required="{Boolean}true"/>
+                                            <text14
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text14"
+                                                name="./text14"
+                                                required="{Boolean}true"/>
+                                            <text15
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text15"
+                                                name="./text15"
+                                                required="{Boolean}true"/>
+                                            <text16
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text16"
+                                                name="./text16"
+                                                required="{Boolean}true"/>
+                                            <text17
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text17"
+                                                name="./text17"
+                                                required="{Boolean}true"/>
+                                            <text18
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text18"
+                                                name="./text18"
+                                                required="{Boolean}true"/>
+                                            <text19
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text19"
+                                                name="./text19"
+                                                required="{Boolean}true"/>
+                                            <text20
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text20"
+                                                name="./text20"
+                                                required="{Boolean}true"/>
+                                            <text21
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text21"
+                                                name="./text21"
+                                                required="{Boolean}true"/>
+                                            <link1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link1"
+                                                name="./link1"
+                                                required="{Boolean}true"/>
+                                            <link2
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link2"
+                                                name="./link2"
+                                                required="{Boolean}true"/>
+                                            <link3
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link3"
+                                                name="./link3"
+                                                required="{Boolean}true"/>
+                                            <link4
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link4"
+                                                name="./link4"
+                                                required="{Boolean}true"/>
+                                            <link5
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link5"
+                                                name="./link5"
+                                                required="{Boolean}true"/>
+                                            <link6
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link6"
+                                                name="./link6"
+                                                required="{Boolean}true"/>
+                                            <link7
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link7"
+                                                name="./link7"
+                                                required="{Boolean}true"/>
+                                            <link8
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link8"
+                                                name="./link8"
+                                                required="{Boolean}true"/>
+                                            <link9
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link9"
+                                                name="./link9"
+                                                required="{Boolean}true"/>
+                                            <link10
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link10"
+                                                name="./link10"
+                                                required="{Boolean}true"/>
+                                            <link11
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link11"
+                                                name="./link11"
+                                                required="{Boolean}true"/>
+                                            <link12
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link12"
+                                                name="./link12"
+                                                required="{Boolean}true"/>
+                                            <link13
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link13"
+                                                name="./link13"
+                                                required="{Boolean}true"/>
+                                            <link14
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link14"
+                                                name="./link14"
+                                                required="{Boolean}true"/>
+                                            <link15
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link15"
+                                                name="./link15"
+                                                required="{Boolean}true"/>
+                                            <link16
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="link16"
+                                                name="./link16"
+                                                required="{Boolean}true"/>
+                                            <text1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text1"
+                                                name="./text1"
+                                                required="{Boolean}true"/>
+                                            <text2column
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter the text"
+                                                fieldDescription="text to enter"
+                                                fieldLabel="text2column"
+                                                name="./text2column"
+                                                required="{Boolean}true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </properties>
+                    <asset
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Asset"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <file
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                                autoStart="{Boolean}false"
+                                                class="cq-droptarget"
+                                                fileNameParameter="./fileName"
+                                                fileReferenceParameter="./fileReference"
+                                                mimeTypes="[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]"
+                                                multiple="{Boolean}false"
+                                                name="./file"
+                                                title="Upload Image Asset"
+                                                uploadUrl="${suffix.path}"
+                                                useHTML5="{Boolean}true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </asset>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
