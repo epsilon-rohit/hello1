@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "career/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/career" mode="merge"/>
+    <filter root="/content/career" mode="merge"/>
+    <filter root="/content/dam/career" mode="merge"/>
+    <filter root="/content/experience-fragments/career" mode="merge"/>
+</workspaceFilter>
